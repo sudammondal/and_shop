@@ -30,9 +30,21 @@ i.fas.fa-shopping-cart {
     font-size: 20px;
 
 }
-
+.card-text {
+    color: #0A0D14;
+    margin-bottom: 20px;
+}
 .cart_wrap {
     position: relative;
+}
+.card-body {
+    padding: 16px 0;
+}
+.card.shadow-sm {
+    box-shadow: none !important;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
 }
 .nav_EcoIcon {
     position: absolute;
@@ -117,6 +129,7 @@ select.form-select:focus {
     position: relative;
     z-index: 3;
     overflow: hidden;
+    width: 100%;background-size: cover;
 }
 .Hero_rap {
     z-index: 5;
@@ -218,7 +231,10 @@ select.form-select:focus {
     font-size: 18px;
     font-weight: 400;
 }
-
+.trinding_Title {
+    display: flex;
+    justify-content: space-between;
+}
 .headtitle {
     font-size: 36px;
 }
@@ -413,7 +429,7 @@ button.slick-prev {
     background-color: #F5F6F7;
 }
 .orgin_pading {
-    padding: 90px 0;
+    padding: 90px 12px;
 }
 .imgBox {
     margin-top: -26px;
@@ -434,7 +450,37 @@ button.slick-prev {
         margin: 0 10px;
         color: black;
     }
- }
+    .explorItems {
+        margin-bottom: 30px; 
+        max-width: 829px;
+    }
+    .imgBox {
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .orgin_pading {
+        padding: 40px 12px;
+    }
+    .imgBox {
+        margin-top: 0px; 
+    }
+    .testimonial_wrap {
+        padding: 60px 0;
+    }
+    .offer_inner {
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
+
 @media (max-width: 992px) { 
     .nav_card {
         display: none;
@@ -452,9 +498,17 @@ button.slick-prev {
         width: 100%;
         z-index: 999;
     }
-    
+    .trinding_Title {
+        display: block;
+        justify-content: center;
+    }
+    .sallIngSection {
+        padding: 100px 0 0;
+    }
+  
     
  }
+
 @media (max-width: 768px) { 
     h1 {
         font-size: 50px;
@@ -465,15 +519,64 @@ button.slick-prev {
     .Logo {
         width: 150px;
     }
-    
-
     img.img-fluid.cagr {
         display: none;
     }
  }
-@media (max-width: 576px) {  }
+@media (max-width: 576px) { 
+
+ }
 @media (max-width: 442px) { 
     .sapport_wrap {
         margin: 20px auto;
+    }
+    .Cart.d-md-blog.d-lg-flex.align-items-center {
+        display: flex;
+    }
+    .testimonial_wrap {
+        padding: 0px 0;
+    }
+    .sallIngSection {
+        padding: 60px 0;
+    }
+    .explorItems {
+        padding: 15px;
+    }
+    .offer_inner {
+        display: block;
+    }
+ }
+ @media (max-width: 320px) { 
+    .top_pra {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .pragraph {
+        font-size: 16px;
+    }
+    .work_sapport {
+        padding: 60px 0;
+    }
+    .headtitle {
+        font-size: 32px;
+        text-align: center;    
+        margin-bottom: 40px;
+    }
+    button.slick-prev {
+        top: -33px;
+    }
+    button.slick-next {
+        top: -33px;
+    }
+    .explorHead {
+        text-align: center;
+    }
+    .explorItems {
+        text-align: center;
+    }
+    .btnFill {
+        font-size: 16px;
     }
  }
