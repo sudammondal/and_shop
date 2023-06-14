@@ -379,6 +379,54 @@ button.slick-prev {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 50px;
+    background-color: #fff;
+}
+.organicValts {
+    background-color: #F5F6F7;
+    overflow: hidden;
+}
+.organicValts {
+    top: 0;
+    left: 0;
+    background-image: url(../Images/leavesLOTA.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.imgBox {
+    position: relative;
+}
+
+.fruts1 {
+    position: absolute;
+    bottom: 180px;
+    left: -19px;
+
+}
+.tometo2 {
+    position: absolute;
+    bottom: 60px;
+    right: 86px;
+
+}
+.appleSoto {
+    position: absolute;
+    bottom: 250px;
+    right: 0px;
+
+}
+.appleSoto2 {
+    position: absolute;
+    bottom: 190px;
+    right: -173px;
+    filter: blur(2px);
+
+
+}
+.dragon {
+    position: absolute;
+    top: 44px;
+    right: -100px;
+    filter: blur(2px);
 }
 
 .border_color {
@@ -425,9 +473,7 @@ button.slick-prev {
  .explorHeadWid {
     max-width: 560px;
 }
-.organicValts {
-    background-color: #F5F6F7;
-}
+
 .orgin_pading {
     padding: 90px 12px;
 }
@@ -455,13 +501,17 @@ button.slick-prev {
         height: 100%;
         display: flex;
         align-items: flex-end;
-        justify-content: center;
+        justify-content: center; 
+         margin-top: 0px; 
+    
     }
     .orgin_pading {
         padding: 40px 12px;
     }
-    .imgBox {
-        margin-top: 0px; 
+   
+    .organicValts {
+        background-image: none;
+
     }
     .testimonial_wrap {
         padding: 60px 0;
@@ -517,6 +567,26 @@ button.slick-prev {
         width: 150px;
     }
     img.img-fluid.cagr {
+        display: none;
+    }
+    .fruts1 {
+        display: none;
+    
+    }
+    .tometo2 {
+        display: none;
+    
+    }
+    .appleSoto {
+        display: none;
+    
+    }
+    .appleSoto2 {
+        display: none;
+    
+    
+    }
+    .dragon {
         display: none;
     }
  }
